@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">PlanarIA</string>
+    <string name="modules_text">Ici acceder à la base de donnée et afficher les modules</string>
+    <string name="identification_text">Ici à ajouter 2 boutons. Un pour l\'appareil photo l\'autre pour acceder a une photo dans la galerie (+ filtres ? )  </string>
+    <string name="prendre_photo">Appareil Photo</string>
+    <string name="galerie">Galerie</string>
+    <string name="retour">retour</string>
+    <string name="titre_item">Jour</string>
+
+    <string name="popup_identification">Voulez vous annalyser cette image ?</string>
+    <string name="popup_identification_bouton1">Retour</string>
+    <string name="popup_identification_bouton2">Envoyer</string>
+
+    <string name="legende_item">--</string>
+    <string name="itemJour">Jour : </string>
+    <string name="itemSolution">Solution : </string>
+    <string name="aCompleter">à compléter</string>
+    <string name="itemPlanaire">Planaire : </string>
+    <string name="itemStade">Stade : </string>
+    <string name="itemDescription">Description : </string>
+    <string name="image_enregistr">Image Enregistré</string>
+    <string name="logo_planaire">Logo Planaire</string>
+    <string name="image_de_la_galerie">Image de la galerie</string>
+    <string name="supprim">supprimer</string>
+    <string name="valid">valider</string>
+    <string name="jour">Jour : </string>
+    <string name="replicat">Replicat : </string>
+    <string name="jour_post_expo">Jour Post Expo :</string>
+    <string name="solution">Solution : </string>
+    <string name="nunm_planaire">Numèros de planaire : </string>
+    <string name="envoye">ENVOYER</string>
+    <string name="tp1">TP1</string>
+    <string name="tp2">TP2</string>
+    <string name="mes_photos">Mes Photos</string>
+    <string name="identification">Identification</string>
+    <string name="modules">Modules</string>
+    <string name="bouton_parametre">Bouton parametre</string>
+    <string name="logo_de_planaire">Logo de Planaire</string>
+    <string name="bouton_information">bouton information</string>
+    <string name="bouton_rotaton_droit">bouton rotaton droit</string>
+    <string name="bouton_rotation_gauche">bouton rotation gauche</string>
+    <string name="id_e_originale">Idée originale :</string>
+    <string name="lucie_rejo_et_caroline_vignet">Lucie Rejo et Caroline Vignet</string>
+    <string name="r_alisation">Réalisation :</string>
+    <string name="caroline_vignet_thierry_montaut">Caroline Vignet, Thierry Montaut</string>
+    <string name="dessins">Dessins :</string>
+    <string name="christophe_senegas">Christophe Senegas</string>
+    <string name="d_veloppement_informatique">Développement Informatique :</string>
+    <string name="ga_l_burgu_s">Gaël Burguès</string>
+    <string name="cr_dit">Crédit</string>
+
+    <string-array name="solution_options">
+        <item>Controle</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <!-- Ajoutez d'autres options ici -->
+    </string-array>
+</resources>

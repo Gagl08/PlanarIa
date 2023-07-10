@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.4in"
+        tools:ignore="InOrMmUsage,Suspicious0dp">
+        <ImageButton
+            android:id="@+id/btn_info"
+            android:layout_width="0.3in"
+            android:layout_height="0.3in"
+            android:layout_marginTop="0.05in"
+            android:layout_marginStart="0.05in"
+            android:background="@drawable/bouton_info"
+            app:srcCompat="@mipmap/icon_information_foreground"
+            tools:ignore="InOrMmUsage"
+            android:contentDescription="@string/bouton_information" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:text="@string/popup_identification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="0.12in"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="16dp"
+        tools:ignore="InOrMmUsage" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="1.5in"
+        android:scaleType="centerCrop"
+        tools:ignore="InOrMmUsage"
+        android:contentDescription="@string/image_enregistr" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.2in"
+        android:layout_marginTop="0.1in"
+        android:orientation="horizontal"
+        tools:ignore="InOrMmUsage">
+        <TextView
+            android:layout_width="1.2in"
+            android:layout_height="match_parent"
+            android:text="@string/jour"
+            android:textAlignment="center"
+            android:textSize="0.12in"
+            android:textStyle="bold"
+            tools:ignore="InOrMmUsage" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="0.12in"
+            android:textStyle="bold"
+            android:text="@string/replicat"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.3in"
+        android:orientation="horizontal"
+        tools:ignore="InOrMmUsage">
+        <EditText
+            android:id="@+id/jour_popup"
+            android:layout_width="1.2in"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:autofillHints="@string/aCompleter"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:id="@+id/replicat_popup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:autofillHints="@string/aCompleter"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.2in"
+        android:layout_marginTop="0.1in"
+        android:orientation="horizontal"
+        tools:ignore="InOrMmUsage">
+        <TextView
+            android:layout_width="1.2in"
+            android:layout_height="match_parent"
+            android:text="@string/jour_post_expo"
+            android:textAlignment="center"
+            android:textSize="0.12in"
+            android:textStyle="bold"
+            tools:ignore="InOrMmUsage" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="0.12in"
+            android:textStyle="bold"
+            android:text="@string/solution"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.3in"
+        android:orientation="horizontal"
+        tools:ignore="InOrMmUsage">
+        <EditText
+            android:id="@+id/jour_post_expo_popup"
+            android:layout_width="1.2in"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:autofillHints="@string/aCompleter"
+            tools:ignore="LabelFor" />
+
+        <Spinner
+            android:id="@+id/solution_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints="@string/aCompleter" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="1.3in"
+        android:layout_height="0.2in"
+        android:text="@string/nunm_planaire"
+        android:layout_marginTop="0.1in"
+        android:layout_marginStart="0.5in"
+        android:textAlignment="center"
+        android:textSize="0.12in"
+        android:textStyle="bold"
+        tools:ignore="InOrMmUsage" />
+
+    <EditText
+        android:id="@+id/num_planaire_popup"
+        android:layout_width="1.2in"
+        android:layout_height="0.5in"
+        android:layout_marginStart="0.5in"
+        tools:ignore="InOrMmUsage,LabelFor"
+        android:autofillHints="@string/aCompleter"
+        android:inputType="number" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/retour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.1in"
+            android:layout_marginStart="0.9in"
+            android:text="@string/retour"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/white"
+            tools:ignore="InOrMmUsage" />
+        <Button
+            android:id="@+id/envoye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.1in"
+            android:layout_marginStart="0.1in"
+            android:text="@string/envoye"
+            android:backgroundTint="@color/green"
+            tools:ignore="InOrMmUsage" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/supprime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.1in"
+                android:layout_marginStart="1in"
+                android:text="@string/supprim"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/green"
+                tools:ignore="InOrMmUsage" />
+            <Button
+                android:id="@+id/retour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.1in"
+                android:layout_marginStart="0.1in"
+                android:text="@string/retour"
+                android:backgroundTint="@color/green"
+                tools:ignore="InOrMmUsage" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="2in"
+            android:layout_marginTop="0.2in"
+            tools:ignore="InOrMmUsage"
+            android:contentDescription="@string/image_enregistr" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.2in"
+            android:layout_marginTop="0.1in"
+            android:orientation="horizontal"
+            tools:ignore="InOrMmUsage">
+
+            <TextView
+                android:id="@+id/jour_label"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:text="@string/jour"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                android:textStyle="bold"
+                tools:ignore="Suspicious0dp" />
+
+            <EditText
+                android:id="@+id/edit_jour"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                android:visibility="gone"
+                android:autofillHints="0"
+                android:inputType="number"
+                tools:ignore="LabelFor,Suspicious0dp" />
+
+            <TextView
+                android:id="@+id/jour"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                tools:ignore="Suspicious0dp" />
+
+            <TextView
+                android:id="@+id/replicat_label"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:text="@string/replicat"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                android:textStyle="bold"
+                tools:ignore="Suspicious0dp" />
+
+            <EditText
+                android:id="@+id/edit_replicat"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                android:visibility="gone"
+                android:autofillHints="0"
+                android:inputType="number"
+                tools:ignore="LabelFor,Suspicious0dp" />
+
+            <TextView
+                android:id="@+id/replicat"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                tools:ignore="Suspicious0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.3in"
+            android:layout_marginTop="0.1in"
+            android:orientation="horizontal"
+            tools:ignore="InOrMmUsage">
+            <TextView
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:text="@string/jour_post_expo"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                android:textStyle="bold"
+                tools:ignore="InOrMmUsage,Suspicious0dp" />
+            <EditText
+                android:id="@+id/edit_jour_post_expo"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                android:visibility="gone"
+                android:autofillHints="0"
+                android:inputType="number"
+                tools:ignore="LabelFor,Suspicious0dp" />
+            <TextView
+                android:id="@+id/jour_post_expo"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                tools:ignore="InOrMmUsage,Suspicious0dp" />
+            <TextView
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                android:textStyle="bold"
+                android:text="@string/solution"
+                tools:ignore="Suspicious0dp" />
+            <Spinner
+                android:id="@+id/edit_solution_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:autofillHints="@string/aCompleter" />
+            <TextView
+                android:id="@+id/solution"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                tools:ignore="InOrMmUsage,Suspicious0dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.2in"
+            android:layout_marginTop="0.1in"
+            android:orientation="horizontal"
+            tools:ignore="InOrMmUsage">
+
+            <TextView
+                android:layout_width="1.3in"
+                android:layout_height="0.2in"
+                android:text="@string/nunm_planaire"
+                android:layout_marginStart="0.3in"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                android:textStyle="bold"
+                tools:ignore="InOrMmUsage,Suspicious0dp" />
+            <EditText
+                android:id="@+id/edit_num_planaire"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                android:visibility="gone"
+                android:autofillHints="0"
+                android:inputType="number"
+                tools:ignore="LabelFor,Suspicious0dp" />
+            <TextView
+                android:id="@+id/num_planaire"
+                android:layout_width="0.6in"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="0.12in"
+                tools:ignore="InOrMmUsage,Suspicious0dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:paddingStart="0.15in"
+            android:layout_marginTop="0.1in"
+            android:id="@+id/description_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/itemDescription"
+            android:textStyle="bold"
+            android:textSize="0.12in"
+            tools:ignore="InOrMmUsage,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="0.4in"
+            android:textSize="0.12in"
+            android:visibility="gone"
+            android:autofillHints="0"
+            android:inputType="text"
+            tools:ignore="InOrMmUsage,LabelFor,Suspicious0dp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="0.4in"
+            android:textAlignment="center"
+            android:textSize="0.12in"
+            tools:ignore="InOrMmUsage,Suspicious0dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

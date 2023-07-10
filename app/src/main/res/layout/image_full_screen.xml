@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.4in"
+        tools:ignore="InOrMmUsage,MissingConstraints">
+        <ImageButton
+            android:id="@+id/rotation_gauche"
+            android:layout_width="0.3in"
+            android:layout_height="0.3in"
+            android:layout_marginTop="0.05in"
+            android:layout_marginStart="0.05in"
+            android:background="@drawable/bouton_info"
+            android:theme="@style/ButtonParam"
+            app:srcCompat="@mipmap/icon_rotate_gauche_foreground"
+            android:contentDescription="@string/bouton_rotation_gauche"
+            tools:ignore="InOrMmUsage" />
+
+        <ImageButton
+            android:id="@+id/rotation_droit"
+            android:layout_width="0.3in"
+            android:layout_height="0.3in"
+            android:layout_marginTop="0.05in"
+            android:layout_marginStart="0.05in"
+            android:background="@drawable/bouton_info"
+            android:theme="@style/ButtonParam"
+            app:srcCompat="@mipmap/icon_rotate_droit_foreground"
+            tools:ignore="InOrMmUsage"
+            android:contentDescription="@string/bouton_rotaton_droit" />
+
+        <Button
+            android:id="@+id/valider_rota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.05in"
+            android:layout_marginStart="1.1in"
+            android:text="@string/valid"
+            android:backgroundTint="@color/green"
+            tools:ignore="InOrMmUsage" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/image_full"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/image_enregistr" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

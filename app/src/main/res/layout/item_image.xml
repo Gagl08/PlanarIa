@@ -1,0 +1,16 @@
+<!-- item_image.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1in"
+        android:layout_height="1in"
+        android:scaleType="centerCrop"
+        tools:ignore="InOrMmUsage"
+        android:contentDescription="@string/image_de_la_galerie" />
+
+</LinearLayout>

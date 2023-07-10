@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Identification">
+
+    <ImageButton
+        android:id="@+id/bouton_param"
+        android:layout_width="0.3in"
+        android:layout_height="0.3in"
+        android:layout_marginTop="0.15in"
+        android:layout_marginEnd="0.15in"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@mipmap/icon_prametre_foreground"
+        android:background="@drawable/bouton_info"
+        tools:ignore="InOrMmUsage"
+        android:contentDescription="@string/bouton_parametre" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="1.5in"
+        android:layout_height="1.5in"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0.8in"
+        android:layout_centerHorizontal="true"
+        tools:ignore="InOrMmUsage"
+        android:contentDescription="@string/logo_planaire" />
+
+    <Button
+        android:id="@+id/prendre_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3in"
+        android:layout_centerHorizontal="true"
+        android:text="@string/prendre_photo"
+        android:background="@drawable/bouton_appareil_photo"
+        android:theme="@style/Button"
+        tools:ignore="InOrMmUsage" />
+
+    <Button
+        android:id="@+id/acceder_galerie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3.5in"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bouton_galerie"
+        android:theme="@style/ButtonBis"
+        android:textColor="@color/green"
+        android:text="@string/galerie"
+        tools:ignore="InOrMmUsage" />
+
+
+</RelativeLayout>

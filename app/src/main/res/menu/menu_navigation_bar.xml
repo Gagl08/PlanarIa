@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/mes_photos"
+        android:id="@+id/pictures"
+        android:icon="@mipmap/galerie_foreground"
+        />
+
+    <item
+        android:title="@string/identification"
+        android:id="@+id/identification"
+        android:icon="@mipmap/photo_foreground"
+
+        />
+    <item
+        android:title="@string/modules"
+        android:id="@+id/modules"
+        android:icon="@mipmap/icon_bdd_foreground"
+        />
+</menu>

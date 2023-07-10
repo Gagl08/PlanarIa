@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0.1in"
+            android:layout_marginStart="0.1in"
+            android:text="@string/cr_dit"
+            android:textStyle="bold"
+            android:textSize="0.15in"
+            tools:ignore="InOrMmUsage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.05in"
+        android:orientation="horizontal"
+        tools:ignore="InOrMmUsage">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0.2in"
+            android:text="@string/id_e_originale"
+            android:textStyle="bold"
+            android:textSize="0.1in"
+            tools:ignore="InOrMmUsage" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="0.09in"
+            android:text="@string/lucie_rejo_et_caroline_vignet"
+            tools:ignore="InOrMmUsage" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0.2in"
+            android:text="@string/r_alisation"
+            android:textStyle="bold"
+            android:textSize="0.1in"
+            tools:ignore="InOrMmUsage" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="0.09in"
+            android:text="@string/caroline_vignet_thierry_montaut"
+            tools:ignore="InOrMmUsage" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0.2in"
+            android:text="@string/dessins"
+            android:textStyle="bold"
+            android:textSize="0.1in"
+            tools:ignore="InOrMmUsage" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="0.09in"
+            android:text="@string/christophe_senegas"
+            tools:ignore="InOrMmUsage" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/d_veloppement_informatique"
+            android:layout_marginStart="0.2in"
+            android:textStyle="bold"
+            android:textSize="0.1in"
+            tools:ignore="InOrMmUsage" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="0.09in"
+            android:text="@string/ga_l_burgu_s"
+            tools:ignore="InOrMmUsage" />
+    </LinearLayout>
+</LinearLayout>
